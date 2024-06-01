@@ -45,14 +45,14 @@
             <h2>Примеры кода</h2>
             <p> 
                 <div class="text">
-                    <h1>Реализация функции cola_let</h1>
+                    <h2>Реализация функции cola_let</h2>
                     <p> cola_let x' x = x + 1 </p>
                     <p> x' 5 </p>
                     <h3>Вывод программы: </h3>
                     <p>6</p>
                 </div>
                 <div class="text">
-                    <h1>Реализация факториала</h1>
+                    <h2>Реализация факториала</h2>
                     cola_let cola_rec factorial n =
                     <pre>
                     cola_if n <= 1 cola_then 1 
@@ -62,6 +62,12 @@
                     <p>cola_let result = factorial 5</p>
                     <h3>Вывод программы: </h3>
                     <p>120</p>
+                </div>
+                <div class="text">
+                    <h2>Реализация списков</h2>
+                    <p>cola_let result = cola_head [ cola_sin 0; cola_cos 0]</p>
+                    <h3>Вывод программы: </h3>
+                    <p>0</p>
                 </div>
             </p>
         </section>
